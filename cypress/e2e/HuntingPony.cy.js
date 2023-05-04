@@ -9,6 +9,7 @@ describe('Buy positive test', function () {
        cy.get('[data-add-cart-counter-plus=""]').click();
        cy.get('.header__cart > .icon').click();
        cy.get('.cart-controls > .button').click();
+       cy.contains('Оформление заказа');
        
-       })
+    })  
 })
